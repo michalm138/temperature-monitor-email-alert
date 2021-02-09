@@ -21,7 +21,7 @@ def check():
     if temperature >= 40:
         try:
             email = yagmail.SMTP(
-                'your_email_addressgmail.com', 'your_password')
+                'your_email_address@gmail.com', 'your_password')
             email.send(
                 to='receiver_email_address@gmail.com',
                 subject='Warning! High temperature',
