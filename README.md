@@ -3,12 +3,12 @@
 
 ### Requirements:
 
-##### * Linux Operating System and package
+##### Linux Operating System and package
 This program works with linux only. It is based on command "sensors"
        
     $ sudo apt-get install lm-sensors 
 
-##### * Python modules
+##### Python modules
 1. Yagmail is used for sending email messages. It works with gmail.
        
         $ pip install yagmail
