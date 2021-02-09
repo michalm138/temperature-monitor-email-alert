@@ -5,7 +5,8 @@
 
 ##### Linux Operating System and package
 This program works with linux only. It is based on command "sensors"
-  $ sudo apt-get install lm-sensors 
+       
+    $ sudo apt-get install lm-sensors 
 
 ##### Python modules
 1. Yagmail is used for sending email messages. It works with gmail.
@@ -17,8 +18,8 @@ This program works with linux only. It is based on command "sensors"
        $ pip install schedule
   
 ### Lines to change:
-      24. 'your_email_addressgmail.com', 'your_password')
-      26. to='receiver_email_address@gmail.com',
+    24. 'your_email_addressgmail.com', 'your_password')
+    26. to='receiver_email_address@gmail.com',
   
 To set your plan:
                 
