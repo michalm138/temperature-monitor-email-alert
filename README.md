@@ -18,11 +18,11 @@ This program works with linux only. It is based on command "sensors"
        $ pip install schedule
   
 ### Lines to change:
-To set maximum temperature:
+To set the maximum temperature:
 ```
 21. if temperature >= 40:
 ```
-
+To set e-mail parameters:
 ```
 24. 'your_email_addressgmail.com', 'your_password')
 26. to='receiver_email_address@gmail.com',
