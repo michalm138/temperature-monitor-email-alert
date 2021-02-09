@@ -9,15 +9,17 @@ This program works with linux only. It is based on command "sensors"
 
 ##### Python modules
 1. Yagmail is used for sending email messages. It works with gmail.
-    $ pip install yagmail
+       
+        $ pip install yagmail
 
 2. Schedule is used for set the plan when the temperature will be check.
-    $ pip install schedule
+
+       $ pip install schedule
   
 ### Lines to change:
-    24. 'your_email_addressgmail.com', 'your_password')
-  
-    24. to='receiver_email_address@gmail.com',
+      24. 'your_email_addressgmail.com', 'your_password')
+      26. to='receiver_email_address@gmail.com',
   
 To set your plan:
-  51. schedule.every(30).minutes.do(check)
+                
+    51. schedule.every(30).minutes.do(check)
