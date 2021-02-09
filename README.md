@@ -20,12 +20,12 @@ This program works with linux only. It is based on command "sensors"
 ### Lines to change:
 To set maximum temperature:
 ```
-    21. if temperature >= 40:
+21. if temperature >= 40:
 ```
 
 ```
-    24. 'your_email_addressgmail.com', 'your_password')
-    26. to='receiver_email_address@gmail.com',
+24. 'your_email_addressgmail.com', 'your_password')
+26. to='receiver_email_address@gmail.com',
 ```
 To set your plan:
                 
