@@ -1,5 +1,4 @@
 # Temperature monitor with e-mail alert
-![Image of tux](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png)
 
 ### Requirements:
 
